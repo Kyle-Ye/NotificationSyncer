@@ -6,7 +6,7 @@ struct SyncerTests {
     @Test
     func postLikeExample() {
         struct PostLikeSyncer: NotificitionSyncer {
-            struct Value: SyncValueCodable {
+            struct Value: SyncableValue {
                 let postID: Int
                 let count: Int
                 let isLike: Bool

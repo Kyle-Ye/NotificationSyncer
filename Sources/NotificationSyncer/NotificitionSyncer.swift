@@ -8,7 +8,7 @@
 import Foundation
 
 public protocol NotificitionSyncer<Value> {
-    associatedtype Value: SyncValueCodable
+    associatedtype Value: SyncableValue
     static var center: NotificationCenter { get }
     static var name: Notification.Name { get }
     
