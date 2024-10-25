@@ -2,7 +2,7 @@ import Testing
 import NotificationSyncer
 import Foundation
 
-struct SyncerTests {
+struct NotificitionSyncerTests {
     @Test
     func postLikeExample() {
         struct PostLikeSyncer: NotificitionSyncer {
